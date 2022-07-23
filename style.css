@@ -1,21 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 #cabecalho {
-    background-color:rgb(14, 131, 14);
+    background-color: #036b52;
     top: 0;
     left: 0;
     right: 0;
     position: fixed;
+    height: 65px;
+    background-image: url(./logo-trybe.png);
+    background-repeat: no-repeat;
 }
 
 #titulo {
     color: white;
+    text-align:center;
+    font-weight: 1000;
+    font-size: 50px;
 }
 
 .minha_foto {
+    padding: 60px;
+    width: 250px;
+    border-radius: 25%;
+}
 
+#aprendizado_list {
+    margin-left: 60px;
+    margin-top: 10px;
 }
 
 .aprendizado {
-
+    margin-left: 60px;
+    margin-top: 10px;
 }
 
 
@@ -23,10 +41,11 @@
 
 }
 
+.future_apr {
+   
+}
+
 #licoes_a_aprender {
 
 }
 
-li:hover {
-    background-color: rgb(14, 131, 14;
-}
