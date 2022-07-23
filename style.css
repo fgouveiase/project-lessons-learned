@@ -3,8 +3,30 @@
     top: 0;
     left: 0;
     right: 0;
+    position: fixed;
 }
 
 #titulo {
-color: white;
+    color: white;
+}
+
+.minha_foto {
+
+}
+
+.aprendizado {
+
+}
+
+
+#licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
+
+}
+
+li:hover {
+    background-color: rgb(14, 131, 14;
 }
