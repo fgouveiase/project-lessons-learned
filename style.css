@@ -22,24 +22,22 @@
 }
 
 .conteudo {
-    max-width: 800px;
-    margin-left: 20px;
     display: inline-block;
-    vertical-align: text-top;
-    
+    vertical-align: top;
+    float: right;
 }
 
-#secao_art {
-   
-}
-
-.artigo {   
-    margin-left: 20px;
+.artigo {
+    margin-left: 60px;
     margin-top: 70px;
-    max-width: 400px;
+    max-width: 650px;
+    text-align: justify;
+    font-size: 20px;
 }
-     
 
+h2 {
+    color: #036b52;
+}
 
 .minha_foto {
     padding: 60px;
@@ -47,40 +45,55 @@
     border-radius: 25%;
 }
 
-.aprendizado_list {
-    margin-left: 30px;
-    float: left;
-}
-
 .aprendizado {
     margin-left: 30px;
-    margin-top: 20;
-    color: #036b52;
+    margin-top: 30px;
+    color: white;
 }
 
 
 #licoes_aprendidas {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 20px;
-    margin-left: 60px;
-    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 100%;
+    padding-right: 20px;
+    padding-left: 10px;
 }
 
 
 #licoes_a_aprender {
-    font-size: 10px;
-    line-height: 18px;
-    margin-left: 60px;
-    margin-top: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 100%;
+    padding-right: 20px;
+    padding-left: 10px;
 }
 
 #aprendizado2 {
-    margin-left: 60px;
-    margin-top: -22px;
-    color: #036b52;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
     width: 30%;
 }
 
-#container_list {
-    max-width: 50%;
+.conteudo_list {
+    float: left;
+    vertical-align: top;
+    background-color: #036b52;
+    margin-top: 10px;
+    height: 580px;
+    padding-left: 35px;
+}
+
+#secao_artigo {
+    
+}
+
+li:hover {
+    background-color: white;
 }
