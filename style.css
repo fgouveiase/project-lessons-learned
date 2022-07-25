@@ -125,7 +125,7 @@ li:hover {
     font-size: 20px;
 }
 
-#novo_aside {
+.lado_esquerdo {
     float: left;
     background-color: #036b52;
     color: white;
