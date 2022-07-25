@@ -15,19 +15,15 @@
 
 #titulo {
     color: white;
-    text-align:center;
+    text-align: center;
     font-weight: 1000;
     font-size: 50px;
     padding-top: 5px;
 }
-#rodape {
-    background-color: #036b52;
-    pos
-}
+
 .conteudo {
     display: inline-block;
     vertical-align: top;
-    float: right;
 }
 
 .artigo {
@@ -51,6 +47,7 @@ h2 {
     border-radius: 25%;
 
 }
+
 
 .aprendizado {
     margin-left: 30px;
@@ -90,14 +87,12 @@ h2 {
 }
 
 .conteudo_list {
-    float: left;
-    vertical-align: top;
     background-color: #036b52;
-    margin-top: 22px;
+    margin-left: 50px;
+    margin-bottom: 80px;
     border-radius: 10%;
+    padding: 30px;
 }
-
-#secao_artigo {}
 
 li:hover {
     background-color: white;
@@ -106,17 +101,32 @@ li:hover {
 #breveDescricao {
     background-color: #036b52;
     float: right;
-    margin-left: 70%;
-    margin-top: -60px;
-    margin-right: 80px;
-    height: 100px;
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 70%;
+    height: 130px;
     border-radius: 25%;
 }
 
 .text_aside {
     text-align: center;
     color: white;
-    font-size: 13px;
     padding: 20px;
-    
+}
+
+#rodape {
+    background-color: #036b52;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    position: relative;
+}
+
+.text_footer {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 15px;
 }
