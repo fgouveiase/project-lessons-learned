@@ -28,7 +28,7 @@
 
 .artigo {
     margin-right: 50px;
-    margin-top: 60px;
+    margin-top: 10px;
     margin-left: 0;
     margin-right: 25%;
     max-width: 600px;
@@ -39,7 +39,8 @@
 
 h2 {
     color: #036b52;
-    font-size: 40px;
+    margin-top: 60px;
+    margin-right: ;
 }
 
 #minha_foto {
@@ -90,7 +91,7 @@ h2 {
     background-color: #036b52;
     float: right;
     margin-left: 90px;
-    margin-top: -52%;
+    margin-top: -46%;
     margin-right: 5px;
     margin-bottom: 600px;
     border-radius: 10%;
@@ -101,16 +102,6 @@ li:hover {
     background-color: white;
 }
 
-#breveDescricao {
-    background-color: #036b52;
-    float: left;
-    margin-left: 70px;
-    margin-top: -15%;
-    margin-bottom: 30px;
-    margin-right: 70%;
-    height: 130px;
-    border-radius: 25%;
-}
 
 .text_aside {
     text-align: center;
@@ -134,3 +125,13 @@ li:hover {
     font-size: 20px;
 }
 
+#novo_aside {
+    float: left;
+    background-color: #036b52;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10%;
+    margin-top: -10%;
+    padding: 30px;
+    width: 250px;
+}
