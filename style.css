@@ -91,7 +91,7 @@ h2 {
     background-color: #036b52;
     float: right;
     margin-left: 90px;
-    margin-top: -46%;
+    margin-top: -36%;
     margin-right: 5px;
     margin-bottom: 600px;
     border-radius: 10%;
@@ -103,11 +103,6 @@ li:hover {
 }
 
 
-.text_aside {
-    text-align: center;
-    color: white;
-    padding: 20px;
-}
 
 #rodape {
     background-color: #036b52;
@@ -131,7 +126,6 @@ li:hover {
     color: white;
     margin-left: 40px;
     border-radius: 10%;
-    margin-top: -10%;
     padding: 30px;
     width: 250px;
 }
